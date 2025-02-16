@@ -9,7 +9,7 @@ import java.util.regex.Matcher;
 @RestController
 @RequestMapping("/api/youtube")
 // Update the CORS to allow requests from your Vercel React URL
-@CrossOrigin(origins = "https://youtube-downloader-qc9r6w6dj-zohaib-islams-projects-71b030ef.vercel.app/")
+@CrossOrigin(origins = "https://youtube-downloader-qc9r6w6dj-zohaib-islams-projects-71b030ef.vercel.app")
 public class YouTubeController {
 
     private static final String API_KEY = "AIzaSyBpzrDkqqWDYl-9Z1mY40bjCnz4YVMEBYw"; // Replace with your API key
