@@ -14,7 +14,8 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("https://youtube-downloader-qc9r6w6dj-zohaib-islams-projects-71b030ef.vercel.app") // Change this to 3000 (React default)
+                         .allowedOrigins("http://localhost:3000") // Change this to 3000 (React default)
+                      //  .allowedOrigins("https://youtube-downloader-qc9r6w6dj-zohaib-islams-projects-71b030ef.vercel.app") // Change this to 3000 (React default)
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
